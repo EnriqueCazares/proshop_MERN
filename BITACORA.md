@@ -13,8 +13,12 @@ Instalar API (backend) y la aplicacion React (front):
 
 Esto correrá ambas aplicaciones (Express y CRA) al mismo tiempo.
 
-
-
+## El archivo .env debe contener las siguientes variables:
+JWT_SECRET,
+MONGO_URI,
+NODE_ENV,
+PAYPAL_CLIENT_ID,
+PORT.
 
 ## Importar data desde seeder (opcional)
 La data se encuentrá de manera "local" en la carpeta backend, de igual manera se encuentra en una cloud de mongo que al correr los seeder se importan o destruyen los datos, según se necesite.
