@@ -23,6 +23,11 @@ import {
   PRODUCT_TOP_FAIL,
 } from "../constants/productConstants";
 
+/*
+  ESTA ES LA ACCIÓN QUE MANDA A "TRAER" NUESTROS PRODUCTOS DESDE LA API VIA AXIOS.
+  La data proveniente de la api se guarda en nuestro reducer en un arreglo de "products"
+  Este arreglo es el que se utiliza para desplegar los productos en el HomeScreen.
+*/
 export const listProducts =
   (keyword = "", pageNumber = "") =>
   async (dispatch) => {
